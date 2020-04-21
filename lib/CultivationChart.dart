@@ -40,22 +40,203 @@ class _CultivationChartState extends State<CultivationChart> {
         appBar: new AppBar(
             title: new Text("Cultivation Chart"),
             backgroundColor: Colors.orange),
-        body: new Container(
-          child: postList.length == 0
-              ? new Text("No Post Is Available")
-              : new ListView.builder(
-                  physics: PageScrollPhysics(),
-                  itemCount: postList.length,
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) {
-                    return listItemUi(
-                        postList[index].image,
-                        postList[index].name,
-                        postList[index].plant,
-                        postList[index].inThe,
-                        postList[index].harvest,
-                        postList[index].family);
-                  }),
+        body: Stack(
+          children: <Widget>[
+            Container(
+              child: postList.length == 0
+                  ? new Text("No Chart Is Available")
+                  : new ListView.builder(
+                      physics: PageScrollPhysics(),
+                      itemCount: postList.length,
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        return listItemUi(
+                            postList[index].image,
+                            postList[index].name,
+                            postList[index].plant,
+                            postList[index].inThe,
+                            postList[index].harvest,
+                            postList[index].family);
+                      }),
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: Container(
+                    width: 150.0,
+                    child: Column(
+                      children: <Widget>[
+                        Image.asset(
+                          "",
+                          height: 150,
+                          width: 160,
+                        ),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                child: Text(
+                                  "Name",
+                                  textAlign: TextAlign.center,
+
+                                  style: new TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                  ),
+                                )
+                            )
+                        ),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                child: Text(
+                                  "Plant Date",
+                                  textAlign: TextAlign.center,
+                                  style: new TextStyle(
+
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                  ),
+                                ))),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+
+                                color: Colors.white
+                                ,
+                                child: Text(
+                                  "In the Field",
+                                  textAlign: TextAlign.center,
+
+                                  style: new TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                  ),
+                                ))),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                child: Text(
+                                  "Harvest",
+                                  textAlign: TextAlign.center,
+
+                                  style: new TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                  ),
+                                ))),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+                                color: Colors.white,
+                                child: Text(
+                                  "Family",
+                                  textAlign: TextAlign.center,
+
+                                  style: new TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.black,
+                                  ),
+                                ))),
+                      ],
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    width: 150.0,
+                    child: Column(
+                      children: <Widget>[
+                        Image.asset(
+                          "",
+                          height: 150,
+                          width: 160,
+                        ),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+
+                            )
+                        ),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+                               )),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+
+                               )),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+
+                                )),
+                        Expanded(
+                            child: Container(
+                                width: double.infinity,
+
+
+                            )
+                        ),
+
+                      ],
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    width: 150.0,
+                    child: Column(
+                      children: <Widget>[
+                        Image.asset(
+                          "",
+                          height: 150,
+                          width: 160,
+                        ),
+                        Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+
+                            )
+                        ),
+                        Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+                            )),
+                        Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+
+                            )),
+                        Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+
+                            )),
+                        Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              color: Colors.white,
+
+
+                            )
+                        ),
+
+                      ],
+                    ),
+                  ),
+                ),
+
+              ],
+            ),
+          ],
         )
 
 //            ?height: double.infinity,
@@ -134,7 +315,7 @@ class _CultivationChartState extends State<CultivationChart> {
             child: new Text(
               name,
               style: new TextStyle(
-                fontSize: 24,
+                fontSize: 18,
                 color: Colors.black,
               ),
             ),
@@ -143,7 +324,7 @@ class _CultivationChartState extends State<CultivationChart> {
             child: new Text(
               plantDate,
               style: new TextStyle(
-                fontSize: 24,
+                fontSize: 18,
                 color: Colors.black,
               ),
             ),
@@ -152,7 +333,7 @@ class _CultivationChartState extends State<CultivationChart> {
             child: new Text(
               inTheField,
               style: new TextStyle(
-                fontSize: 24,
+                fontSize: 18,
                 color: Colors.black,
               ),
             ),
@@ -161,7 +342,7 @@ class _CultivationChartState extends State<CultivationChart> {
             child: new Text(
               harvest,
               style: new TextStyle(
-                fontSize: 24,
+                fontSize: 18,
                 color: Colors.black,
               ),
             ),
@@ -170,7 +351,7 @@ class _CultivationChartState extends State<CultivationChart> {
             child: new Text(
               family,
               style: new TextStyle(
-                fontSize: 24,
+                fontSize: 18,
                 color: Colors.black,
               ),
             ),
@@ -181,4 +362,5 @@ class _CultivationChartState extends State<CultivationChart> {
 //                  color: Colors.red,
     );
   }
+
 }
