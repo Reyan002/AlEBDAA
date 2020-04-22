@@ -14,24 +14,17 @@ class _CultivationChartState extends State<CultivationChart> {
     // TODO: implement initState
     super.initState();
     postList.clear();
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
-    postList.add(new Items("asset/images/contact.png", "name", "plant", "inThe",
-        "harvest", "family"));
+
+    postList.add(new Items( "",""  ,""  ,""  ,""  ,""  ,Colors.white) );
+    postList.add(new Items("asset/images/pumpkin.png", "Pumpkin", "Feb & Mar", "Sep & Oct",
+        "180 Days", "Cucurbitaceae",Colors.green));
+    postList.add(new Items("asset/images/ridgecucumber.png", "Ridge Cucumber", "Feb", "Sep",
+        "4o Days", "Cucurbitaceae",Colors.blue));
+    postList.add(new Items("asset/images/pumpkin.png", "Pumpkin", "Feb & Mar", "Sep & Oct",
+        "180 Days", "Cucurbitaceae",Colors.green));
+    postList.add(new Items("asset/images/ridgecucumber.png", "Ridge Cucumber", "Feb", "Sep",
+        "4o Days", "Cucurbitaceae",Colors.blue));
+
   }
 
   @override
@@ -54,17 +47,19 @@ class _CultivationChartState extends State<CultivationChart> {
                             postList[index].image,
                             postList[index].name,
                             postList[index].plant,
-                            postList[index].inThe,
+                            postList[index].color,
+                          postList[index].inThe,
                             postList[index].harvest,
-                            postList[index].family);
+                            postList[index].family
+
+                        );
                       }),
             ),
             Row(
               children: <Widget>[
                 Expanded(
                   child: Container(
-                    width: 150.0,
-                    child: Column(
+                     child: Column(
                       children: <Widget>[
                         Image.asset(
                           "",
@@ -75,13 +70,15 @@ class _CultivationChartState extends State<CultivationChart> {
                             child: Container(
                                 width: double.infinity,
                                 color: Colors.white,
-                                child: Text(
-                                  "Name",
-                                  textAlign: TextAlign.center,
+                                child: Center(
+                                  child: Text(
+                                    "Name",
+                                    textAlign: TextAlign.center,
 
-                                  style: new TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.black,
+                                    style: new TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.black,
+                                    ),
                                   ),
                                 )
                             )
@@ -90,13 +87,15 @@ class _CultivationChartState extends State<CultivationChart> {
                             child: Container(
                                 width: double.infinity,
                                 color: Colors.white,
-                                child: Text(
-                                  "Plant Date",
-                                  textAlign: TextAlign.center,
-                                  style: new TextStyle(
+                                child: Center(
+                                  child: Text(
+                                    "Plant Date",
+                                    textAlign: TextAlign.center,
+                                    style: new TextStyle(
 
-                                    fontSize: 18,
-                                    color: Colors.black,
+                                      fontSize: 16,
+                                      color: Colors.black,
+                                    ),
                                   ),
                                 ))),
                         Expanded(
@@ -105,39 +104,45 @@ class _CultivationChartState extends State<CultivationChart> {
 
                                 color: Colors.white
                                 ,
-                                child: Text(
-                                  "In the Field",
-                                  textAlign: TextAlign.center,
+                                child: Center(
+                                  child: Text(
+                                    "In the Field",
+                                    textAlign: TextAlign.center,
 
-                                  style: new TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.black,
+                                    style: new TextStyle(
+                                      fontSize: 18,
+                                      color: Colors.black,
+                                    ),
                                   ),
                                 ))),
                         Expanded(
                             child: Container(
                                 width: double.infinity,
                                 color: Colors.white,
-                                child: Text(
-                                  "Harvest",
-                                  textAlign: TextAlign.center,
+                                child: Center(
+                                  child: Text(
+                                    "Harvest",
+                                    textAlign: TextAlign.center,
 
-                                  style: new TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.black,
+                                    style: new TextStyle(
+                                      fontSize: 18,
+                                      color: Colors.black,
+                                    ),
                                   ),
                                 ))),
                         Expanded(
                             child: Container(
                                 width: double.infinity,
                                 color: Colors.white,
-                                child: Text(
-                                  "Family",
-                                  textAlign: TextAlign.center,
+                                child: Center(
+                                  child: Text(
+                                    "Family",
+                                    textAlign: TextAlign.center,
 
-                                  style: new TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.black,
+                                    style: new TextStyle(
+                                      fontSize: 18,
+                                      color: Colors.black,
+                                    ),
                                   ),
                                 ))),
                       ],
@@ -146,8 +151,7 @@ class _CultivationChartState extends State<CultivationChart> {
                 ),
                 Expanded(
                   child: Container(
-                    width: 150.0,
-                    child: Column(
+                     child: Column(
                       children: <Widget>[
                         Image.asset(
                           "",
@@ -188,8 +192,7 @@ class _CultivationChartState extends State<CultivationChart> {
                 ),
                 Expanded(
                   child: Container(
-                    width: 150.0,
-                    child: Column(
+                     child: Column(
                       children: <Widget>[
                         Image.asset(
                           "",
@@ -301,58 +304,75 @@ class _CultivationChartState extends State<CultivationChart> {
         );
   }
 
-  Widget listItemUi(String image, String name, String plantDate,
+  Widget listItemUi(String image, String name, String plantDate,Color   colors,
       String inTheField, String harvest, String family) {
     return new Container(
+      decoration: BoxDecoration(border:Border.all(color:Colors.black),color:  colors) ,
+      width: 140,
       child: Column(
         children: <Widget>[
-          Image.asset(
-            image,
-            height: 150,
-            width: 160,
+          Container(
+
+            padding: EdgeInsets.all(20),
+
+            child: Image.asset(
+
+               image,
+
+            ),
           ),
           Expanded(
-            child: new Text(
-              name,
-              style: new TextStyle(
-                fontSize: 18,
-                color: Colors.black,
+            child: Center(
+              child: new Text(
+                name,
+                style: new TextStyle(
+                  fontSize: 18,
+                  color: Colors.black,
+                ),
               ),
             ),
           ),
           Expanded(
-            child: new Text(
-              plantDate,
-              style: new TextStyle(
-                fontSize: 18,
-                color: Colors.black,
+            child: Center(
+              child: new Text(
+                plantDate,
+                style: new TextStyle(
+                  fontSize: 18,
+                  color: Colors.black,
+                ),
               ),
             ),
           ),
           Expanded(
-            child: new Text(
-              inTheField,
-              style: new TextStyle(
-                fontSize: 18,
-                color: Colors.black,
+            child: Center(
+              child: new Text(
+                inTheField,
+                style: new TextStyle(
+                  fontSize: 18,
+                  color: Colors.black,
+                ),
               ),
             ),
           ),
           Expanded(
-            child: new Text(
-              harvest,
-              style: new TextStyle(
-                fontSize: 18,
-                color: Colors.black,
+            child: Center(
+              child: new Text(
+                harvest,
+                style: new TextStyle(
+                  fontSize: 18,
+                  color: Colors.black,
+                ),
               ),
             ),
           ),
           Expanded(
-            child: new Text(
-              family,
-              style: new TextStyle(
-                fontSize: 18,
-                color: Colors.black,
+            child: Center(
+              child: new Text(
+                family,
+                style: new TextStyle(
+                  fontSize: 18,
+                  color: Colors.black,
+                ),
               ),
             ),
           ),

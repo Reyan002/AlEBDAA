@@ -58,8 +58,8 @@ class _ContactUsState extends State<ContactUs> {
               FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.web,color: Colors.black,) , label: new Text( "www.alebdaainvestment.com",style:
               TextStyle(color: Colors.black,fontSize: 18),)),
 //location
-              FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.place,color: Colors.black,) , label: new Text( "Nabta Agriculture Store, Dubai UAE",style:
-              TextStyle(color: Colors.black,fontSize: 18),)),
+              FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.place,color: Colors.black,) , label: new Text( "Nabta Agriculture Store, Dubai UAE",maxLines: 1,style:
+              TextStyle(color: Colors.black,fontSize: 14),)),
 
             ],
           ),
