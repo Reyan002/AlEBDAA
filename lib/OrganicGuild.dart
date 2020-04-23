@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterappalebdaa/translations_delegate_base.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
@@ -12,7 +13,7 @@ class _OrganicGuildState extends State<OrganicGuild> {
   Widget build(BuildContext context) {
        return new Scaffold(
       appBar: new AppBar(
-          title: new Text("Oranic Guild"),backgroundColor: Colors.orange
+          title: new Text(TranslationBase.of(context).organic),backgroundColor: Colors.orange
       ),
       body: new Container(
         width: double.infinity,
@@ -33,7 +34,7 @@ class _OrganicGuildState extends State<OrganicGuild> {
 
          child: new RaisedButton(
 
-            child: new Text("Become A Partner", style: new TextStyle(fontSize: 20),),
+            child: new Text(TranslationBase.of(context).become, style: new TextStyle(fontSize: 20),),
 
             textColor: Colors.black,
 

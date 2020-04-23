@@ -22,6 +22,7 @@ class AppModel extends Model {
     notifyListeners();
   }
   void changeDirectionTOenglish() {
+
     if (_appLocale == Locale("ar")) {
       _appLocale = Locale("en");
     } else {

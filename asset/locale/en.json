@@ -1,298 +1,357 @@
-﻿{
-	"resources": {
-		"string": [
-			{
-				"_name": "app_name",
-				"__text": "Al-Ebdaa"
-			},
-			{
-				"_name": "btn_en",
-				"__text": "English"
-			},
-			{
-				"_name": "btn_ar",
-				"__text": "العربية"
-			},
-			{
-				"_name": "about_us",
-				"__text": "Al-EBBDA AL-ZAHABI Investments is a company invests in many sectors (commercial, industrial, agriculture, education, petrol and gas, tourism) was established to support and develop SME businesses around UAE and Organic Guild is part of Al-EBBDA AL-ZAHABI, its created with the purpose of encouraging and developing the organic industry the UAE. Organic Guild is group of companies that are organic certified or related to it or have passion to it. The purpose of this group is to share information, cooperate in the business and participate in events and exhibition."
-			},
-			{
-				"_name": "become",
-				"__text": "Become A Partner"
-			},
-			{
-				"_name": "home",
-				"__text": "Home"
-			},
-			{
-				"_name": "about",
-				"__text": "About Us"
-			},
-			{
-				"_name": "contact",
-				"__text": "Contact"
-			},
-			{
-				"_name": "video",
-				"__text": "Video"
-			},
-			{
-				"_name": "list",
-				"__text": "Listing"
-			},
-			{
-				"_name": "more",
-				"__text": "More"
-			},
-			{
-				"_name": "title",
-				"__text": "Title"
-			},
-			{
-				"_name": "sno",
-				"__text": "S.No."
-			},
-			{
-				"_name": "cultichart",
-				"__text": "Cultivation Chart"
-			},
-			{
-				"_name": "organic",
-				"__text": "Organic Guild"
-			},
-			{
-				"_name": "one",
-				"__text": "1"
-			},
-			{
-				"_name": "two",
-				"__text": "2"
-			},
-			{
-				"_name": "plant",
-				"__text": "PLANT DATE"
-			},
-			{
-				"_name": "inthe",
-				"__text": "IN THE FIELD"
-			},
-			{
-				"_name": "harv",
-				"__text": "HARVEST"
-			},
-			{
-				"_name": "family",
-				"__text": "FAMILY"
-			},
-			{
-				"_name": "who",
-				"__text": "WHO WE ARE"
-			},
-			{
-				"_name": "txtAbout",
-				"__text": "About Us"
-			},
-			{
-				"_name": "mission",
-				"__text": "Our Mission"
-			},
-			{
-				"_name": "vission",
-				"__text": "Our Vision"
-			},
-			{
-				"_name": "Mission",
-				"__text": "participate in growth of organic sector and encourage young farmers to invest in their farms as well as support traditional farmers to adopt new technology in farming. Also raise awareness of importance of organic industry to be available and spread widely among United Arab Emirates."
-			},
-			{
-				"_name": "Vission",
-				"__text": "develop agriculture sector and promote UAE to become on the top of organic industry and be market leader in GCC and middle-east. At same time continuing support to meet clients and business needs as they develop."
-			},
-			{
-				"_name": "title_activity_maps",
-				"__text": "Map"
-			}
-		],
-		"color": {
-			"_name": "bgBottomNavigation",
-			"__text": "#005C97"
-		},
-		"string-array": [
-			{
-				"item": [
-					"",
-					"90-120 Days",
-					"50-60 Days",
-					"50-60 Days",
-					"After 50-60 Days of farming",
-					"After 85-90 Days of farming",
-					"After 70-80 Days of farming",
-					"After 60-70 Days of farming",
-					"After 100-120 Days of farming",
-					"After 80-90 Days of farming",
-					"After 75-80 Days of farming",
-					"After 40Days of farming",
-					"After35 Days of farming",
-					"After 40Days of farming",
-					"After 180 Days of farming",
-					"After 80-90 Days of farming",
-					"After 80-90 Days of farming",
-					"After 50-60 Days of farming",
-					"After 60Days of farming",
-					"After 70-80 Days of farming",
-					"After 70-90 Days of farming",
-					"After4 5-60 Days of farming",
-					"After 40-50Days of farming",
-					"After 45 Days of farming",
-					"Onion Storage: 150 days after planting Green onions: Agriculture after 60 days",
-					"After 180 Days of farming",
-					"After 45-60 Days of farming",
-					"After 70-80 Days of farming",
-					"After 50-60 Days of farming",
-					"After85-120 Days of farming",
-					"After 100-120 Days of farming",
-					"After 60 Days of farming",
-					"After 50-60 Days of farming",
-					"After 45 Days of farming",
-					"After 90-180 Days of farming",
-					"sweet variety: 70-90 Day",
-					"After 90-180 Days",
-					""
-				],
-				"_name": "Harvest_Time"
-			},
-			{
-				"item": [
-					"",
-					"Convolvulacea",
-					"Malvaceae",
-					"Tiliaceae",
-					"Compositeae",
-					"Solanaceae",
-					"Solanaceae",
-					"Solanaceae",
-					"Solanaceae",
-					"Cucurbitaceae",
-					"Cucurbitaceae",
-					"Cucurbitaceae",
-					"Cucurbitaceae",
-					"Cucurbitaceae",
-					"Cucurbitaceae",
-					"Leg الموسم 1: من فبراير الى أبريل\n        Season 1 : February-April الموسم 2: من أغسطس الى اكتوبر\n        Season 2 : August – October minoseae",
-					"Leguminoseae",
-					"Leguminoseae",
-					"Leguminoseae",
-					"Cruciferae",
-					"Cruciferae",
-					"Cruciferae",
-					"Cruciferae",
-					"Cruciferae",
-					"Amaryllidaceae",
-					"Amaryllidaceae",
-					"Amaryllidaceae",
-					"Chenopodiaceae",
-					"Chenopodiaceae",
-					"Chenopodiaceae",
-					"Umbeliferae",
-					"Umbeliferae",
-					"Umbeliferae",
-					"Umbeliferae",
-					"Umbeliferae",
-					"Gramineae",
-					"Rosaceae",
-					""
-				],
-				"_name": "Family_name_of_the_crops"
-			},
-			{
-				"item": [
-					"",
-					"Sweet potato",
-					"Okra",
-					"Jew s mallow",
-					"Lettuce",
-					"Tomato",
-					"Eggplant",
-					"Pepper",
-					"Potato",
-					"Watermelon",
-					"Muskmelon",
-					"Cucumber",
-					"Zucchini/ Squash",
-					"Ridg Cucumber",
-					"Pumpkin",
-					"Broad beans",
-					"Beans",
-					"Cowpea",
-					"Peas",
-					"Cabbage",
-					"Cauliflower",
-					"Turnip",
-					"Radish",
-					"Roquette/Augula",
-					"Onion",
-					"Garlic",
-					"Leek",
-					"Beet",
-					"Spinach",
-					"Chard",
-					"Carrot",
-					"Parsley",
-					"Coriander",
-					"Dill",
-					"Celery",
-					"Sweet corn",
-					"Strawberry",
-					""
-				],
-				"_name": "English_name_of_the_crops"
-			},
-			{
-				"item": [
-					"",
-					"February - March",
-					"February - March",
-					"February - March",
-					"November - December",
-					"October- January",
-					"September – October",
-					"October- January",
-					"October- December",
-					"October- December",
-					"Season 1 : February-March\n       Season 2 : August – September",
-					"Season 1 : February-March Season 2 : August – September",
-					"Season 1 : February-March Season 2 : August – September",
-					"Season 1 : February-April  Season 2 : August – October",
-					"Season 1 : February-April  Season 2 : August – October",
-					"Season 1 : February-April Season 2 : August – October",
-					"October- November",
-					"Season 1 : February-April Season 2 : August – October",
-					"Season 1 : February-April  Season 2 : August – October",
-					"October- November",
-					"October-December",
-					"October-December",
-					"October-December",
-					"October-December",
-					"Season 1 : February-April Season 2 : August – October",
-					"October-December",
-					"November",
-					"September",
-					"October- November",
-					"October-December",
-					"September- February",
-					"October- November",
-					"October- November",
-					"October-December",
-					"October- November",
-					"October- November",
-					"October",
-					"Season 1 : February-April Season 2 : August – October",
-					"October- November",
-					""
-				],
-				"_name": "cultivation_time"
-			}
-		]
+﻿[
+	{
+		"image":  "",
+		"name": " ",
+		"plant": " ",
+		"inThe": " ",
+		"harvest": " s",
+		"family": " "
+
+	},
+	{
+		 "image": "asset/images/pumpkin.png",
+		 "name": "Pumpkin",
+		 "plant": "Feb & Mar",
+		 "inThe": "Sep & Oct",
+		 "harvest": "180 Days",
+		 "family": "Cucurbitaceae"
+
+	},
+	{
+		"image": "asset/images/ridgecucmber.png",
+		"name": "Ridge Cucumber",
+		"plant": "Feb",
+		"inThe": "Sep",
+		"harvest": "40 Days",
+		"family": "Cucurbitaceae"
+
 	}
-}
+,
+	{
+		"image": "asset/images/squash.png",
+		"name": "Squash",
+		"plant": "Feb - Apr",
+		"inThe": "Aug - Oct",
+		"harvest": "35 Days",
+		"family": "Cucurbitaceae"
+
+	}
+,
+	{
+		"image": "asset/images/cucumber.png",
+		"name": "Cucumber",
+		"plant": "Feb - Mar",
+		"inThe": "Aug - Sep",
+		"harvest": "40 Days",
+		"family": "Cucurbitaceae"
+
+	}
+,
+	{
+		"image": "asset/images/muskmelon.png",
+		"name": "Musk Melon",
+		"plant": "Feb - Mar",
+		"inThe": "Aug - Sep",
+		"harvest": "75 - 80 Days",
+		"family": "Cucurbitaceae"
+
+	}
+,
+	{
+		"image": "asset/images/watermelon.png",
+		"name": "Water Melon",
+		"plant": "Feb - Mar",
+		"inThe": "Aug - Sep",
+		"harvest": "80 - 90 Days",
+		"family": "Cucurbitaceae"
+
+	}
+,
+	{
+		"image": "asset/images/potato.png",
+		"name": "Potato",
+		"plant": "No Seedling",
+		"inThe": "Oct - Dec",
+		"harvest": "100-120 Days (By Category)",
+		"family": "Solanaceae"
+
+	}
+,
+	{
+		"image": "asset/images/pepper.png",
+		"name": "Pepper",
+		"plant": "Aug-Oct in Seedling",
+		"inThe": "After a Month of Planting Seeds Palmstl",
+		"harvest": "60 - 70 Days",
+		"family": "Solanaceae"
+
+	}
+,
+	{
+		"image": "asset/images/eggplant.png",
+		"name": "Eggplant",
+		"plant": "Aug-Oct in Seedling",
+		"inThe": "After a Month of Planting Seeds Palmstl",
+		"harvest": "70 - 80 Days",
+		"family": "Solanaceae"
+
+	}
+,
+
+	{
+		"image": "asset/images/lettuce.png",
+		"name": "Lettuce",
+		"plant": "Oct-Nov Seedlings after a month",
+		"inThe": " ",
+		"harvest": "50 - 60 Days",
+		"family": "Compositeae"
+
+	}
+,
+	{
+		"image": "asset/images/jewsmallow.png",
+		"name": "Jew's Mallow",
+		"plant": "Jan - Mar",
+		"inThe": " ",
+		"harvest": "50 - 60 Days",
+		"family": "Tiliaceae"
+
+	}
+,
+	{
+		"image": "asset/images/okra.png",
+		"name": "Okra",
+		"plant": "Jan - Mar",
+		"inThe": " ",
+		"harvest": "50 - 60 Days",
+		"family": "Malvaceae"
+
+	}
+,
+	{
+		"image": "asset/images/sweetpotato.png",
+		"name": "Sweet Potato",
+		"plant": "Feb - Mar",
+		"inThe": " ",
+		"harvest": "90 - 120 Days",
+		"family": "Convolvulacea"
+
+	}
+
+,
+	{
+		"image": "asset/images/strawberry.png",
+		"name": "Strawberry",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "120-180 Days",
+		"family": "Rosaceae"
+
+	}
+,
+	{
+		"image": "asset/images/sweetcorn.png",
+		"name": "Sweet Corn",
+		"plant": "Feb - Mar \n Oct - Nov",
+		"inThe": " ",
+		"harvest": "70 - 90 Days \n 120 - 130 Days",
+		"family": "Gramineae"
+
+	}
+,
+	{
+		"image": "asset/images/celery.png",
+		"name": "Celery",
+		"plant": "October",
+		"inThe": " ",
+		"harvest": "90 - 180 Days",
+		"family": "Umbliferae"
+
+	}
+,
+	{
+		"image": "asset/images/dill.png",
+		"name": "Dill",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "45 Days",
+		"family": "Umbliferae"
+
+	}
+,
+	{
+		"image": "asset/images/coriander.png",
+		"name": "Coriander",
+		"plant": "Oct - Dec",
+		"inThe": " ",
+		"harvest": "50-60Days(Share each month)",
+		"family": "Umbliferae"
+
+	}
+,
+	{
+		"image": "asset/images/parsley.png",
+		"name": "Parsley",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": " 60Days(Share each month)",
+		"family": "Umbliferae"
+
+	}
+
+,
+	{
+		"image": "asset/images/carrot.png",
+		"name": "Carrot",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "100 - 120 Days",
+		"family": "Umbliferae"
+
+	},
+	{
+		"image": "asset/images/chard.png",
+		"name": "Chard",
+		"plant": "Sep - Feb",
+		"inThe": " ",
+		"harvest": "85 - 120 Days",
+		"family": "Chenopodiaceae"
+
+	},
+	{
+		"image": "asset/images/spinach.png",
+		"name": "Spinach",
+		"plant": "Oct - Dec",
+		"inThe": " ",
+		"harvest": "50-60 Days (Share Each Month)",
+		"family": "Chenopodiaceae"
+
+	},
+	{
+		"image": "asset/images/beet.png",
+		"name": "Beet",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "75-80 Days (Share Each Month)",
+		"family": "Chenopodiaceae"
+
+	},
+	{
+		"image": "asset/images/leek.png",
+		"name": "Leek",
+		"plant": "Sep",
+		"inThe": " ",
+		"harvest": "45-60 Days",
+		"family": "Amarylidaceae"
+
+	},
+	{
+		"image": "asset/images/garlic.png",
+		"name": "Garlic",
+		"plant": "Nov",
+		"inThe": " ",
+		"harvest": "180 Days",
+		"family": "Amarylidaceae"
+
+	},
+	{
+		"image": "asset/images/onion.png",
+		"name": "Onion",
+		"plant": "Sep - Nov",
+		"inThe": " ",
+		"harvest": "60 - 150 Days",
+		"family": "Amarylidaceae"
+
+	},
+	{
+		"image": "asset/images/augula.png",
+		"name": "Augula",
+		"plant": "Oct - Dec \n Feb - Mar",
+		"inThe": " ",
+		"harvest": "45 Days",
+		"family": "Cruciferae"
+
+	},
+	{
+		"image": "asset/images/radish.png",
+		"name": "Radish",
+		"plant": "Oct - Dec",
+		"inThe": " ",
+		"harvest": "40 - 50 Days",
+		"family": "Cruciferae"
+
+	},
+	{
+		"image": "asset/images/turnip.png",
+		"name": "Turnip",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "45 - 60 Days",
+		"family": "Cruciferae"
+
+	},
+	{
+		"image": "asset/images/cauliflower.png",
+		"name": "Cauliflower",
+		"plant": "Sep - Nov",
+		"inThe": "Oct - Dec",
+		"harvest": "70 - 90 Days",
+		"family": "Cruciferae"
+
+	},
+	{
+		"image": "asset/images/cabage.png",
+		"name": "Cabbage",
+		"plant": "Sep - Nov",
+		"inThe": "Oct - Dec",
+		"harvest": "70 - 80 Days",
+		"family": "Cruciferae"
+
+	},
+	{
+		"image": "asset/images/peas.png",
+		"name": "Peas",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "60 Days",
+		"family": "Leguminoseae"
+
+	},
+	{
+		"image": "asset/images/cowpea.png",
+		"name": "Cowpea",
+		"plant": "Aug - Oct \n Feb - Mar",
+		"inThe": " ",
+		"harvest": "70 - 90 Days",
+		"family": "Leguminoseae"
+
+	},
+	{
+		"image": "asset/images/beans.png",
+		"name": "Beans",
+		"plant": "Feb - Mar \n Oct - Nov",
+		"inThe": " ",
+		"harvest": "60 - 70 Days \n 30 - 40 Days",
+		"family": "Leguminoseae"
+
+	},
+	{
+		"image": "asset/images/broadbeans.png",
+		"name": "Broad Beans",
+		"plant": "Oct - Nov",
+		"inThe": " ",
+		"harvest": "80 - 90 Days",
+		"family": "Leguminoseae"
+
+	},
+
+	{
+		"image":  "",
+		"name": " ",
+		"plant": " ",
+		"inThe": " ",
+		"harvest": " ",
+		"family": " "
+
+	}
+]

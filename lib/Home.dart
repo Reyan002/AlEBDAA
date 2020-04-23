@@ -5,7 +5,7 @@ import 'Listing.dart';
 import 'Videos.dart';
 import 'ContactUs.dart';
 import 'HomePage.dart';
-
+ import  'translations_delegate_base.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -43,18 +43,18 @@ HomePage(),
         fixedColor: Colors.orange,
         items: [
 
-          BottomNavigationBarItem(icon: Icon(Icons.home,), title: Text("Home"), ),
+          BottomNavigationBarItem(icon: Icon(Icons.home,), title: Text(TranslationBase.of(context).home), ),
           BottomNavigationBarItem(
 
 
-              icon: Icon(Icons.supervised_user_circle), title: Text("About Us")),
+              icon: Icon(Icons.supervised_user_circle), title: Text(TranslationBase.of(context).about)),
 
           BottomNavigationBarItem(
-              icon: Icon(Icons.list), title: Text("Listing")),
+              icon: Icon(Icons.list), title: Text(TranslationBase.of(context).list)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.video_library), title: Text("Video")),
+              icon: Icon(Icons.video_library), title: Text(TranslationBase.of(context).video)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.contact_phone), title: Text("Contact")),
+              icon: Icon(Icons.contact_phone), title: Text(TranslationBase.of(context).contact)),
         ],
       ),
     );
