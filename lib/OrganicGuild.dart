@@ -15,53 +15,59 @@ class _OrganicGuildState extends State<OrganicGuild> {
       appBar: new AppBar(
           title: new Text(TranslationBase.of(context).organic),backgroundColor: Colors.orange
       ),
-      body: new Container(
-        width: double.infinity,
-       decoration: BoxDecoration(
-         image: DecorationImage(image:AssetImage("asset/images/partner.jpg"),fit: BoxFit.cover)
+      body:  Stack(
 
-       ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.end,
+    children: <Widget>[
 
-          children: <Widget>[
-        ButtonTheme(
+      Center(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: CircleAvatar(
 
-            minWidth: double.infinity,
-         height: 50,
-
-         child: new RaisedButton(
-
-            child: new Text(TranslationBase.of(context).become, style: new TextStyle(fontSize: 20),),
-
-            textColor: Colors.black,
-
-            color: Colors.orange,
-            onPressed: _launchURL,
-
+            radius: 100.0,
+            backgroundImage: AssetImage('asset/images/logoback.jpg'),
           ),
         ),
-             FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.phone,color: Colors.white,) , label: new Text( "+971555551349",style:
-               TextStyle(color: Colors.white,fontSize: 18),)),
-            FlatButton.icon(onPressed: mailTo, icon: Icon(Icons.email,color: Colors.white,) , label: new Text( "azaeinvestment@gmail.com",style:
-            TextStyle(color: Colors.white,fontSize:18),))
+      ),
 
 
-          ],
-        ),
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.end,
+
+        children: <Widget>[
+
+
+          ButtonTheme(
+
+            minWidth: double.infinity,
+            height: 50,
+
+            child: new RaisedButton(
+
+              child: new Text(TranslationBase.of(context).become, style: new TextStyle(fontSize: 20),),
+
+              textColor: Colors.black,
+
+              color: Colors.orange,
+              onPressed: mailTo,
+
+            ),
+          ),
+          FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.phone, ) , label: new Text( "+971555551349",style:
+          TextStyle(  fontSize: 18),)),
+          FlatButton.icon(onPressed: mailTo, icon: Icon(Icons.email, ) , label: new Text( "azaeinvestment@gmail.com",style:
+          TextStyle(  fontSize:18),))
+
+
+        ],
+      ),
+    ],
       )
     );
   }
-  _launchURL() async {
-    const url = 'http://alebdaainvestment.com/contact/';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+
   void validateAndSubmit() {
   }
 

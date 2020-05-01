@@ -31,6 +31,8 @@ class TranslationBase {
   'contact':'Contact',
   'video':'Video',
   'list':'Listing',
+  'number':'+971505447799',
+
 
       'more':'More',
       'title':'Title',
@@ -72,7 +74,7 @@ class TranslationBase {
       'contact':'اتصل',
       'video':'فيديو',
       'list':'قائمة',
-
+      'number':'971505447799+',
       'more':'أكثر',
       'title':'عنوان',
       'sno':'رقم سري',
@@ -103,6 +105,9 @@ class TranslationBase {
 
   String get btna {
     return _localizedValues[locale.languageCode]['btn_ar'];
+  }
+  String get number {
+    return _localizedValues[locale.languageCode]['number'];
   }
   String get en {
     return _localizedValues[locale.languageCode]['en'];

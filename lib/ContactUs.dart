@@ -12,7 +12,7 @@ class ContactUs extends StatefulWidget {
 class _ContactUsState extends State<ContactUs> {
   Completer<GoogleMapController> _controller = Completer();
 
-  static const LatLng _center = const LatLng(25.099230, 55.179760);
+  static const LatLng _center = const LatLng(25.223895, 55.466783);
   Set<Marker> markers = Set();
 
   @override
@@ -21,7 +21,8 @@ class _ContactUsState extends State<ContactUs> {
     markers.addAll([
       Marker(
           markerId: MarkerId('AL-EBDAA'),
-          position: LatLng(25.099230,55.179760)),
+          position: LatLng(25.223895, 55.466783)),
+
 
     ]);
     super.initState();
@@ -40,14 +41,17 @@ class _ContactUsState extends State<ContactUs> {
 
           GoogleMap(
 
+
             onMapCreated: _onMapCreated,
+
             initialCameraPosition: CameraPosition(
 
               target: _center,
-              zoom: 14,
+              zoom: 18,
 
 
             ),
+
 
             markers: markers,
           ),
@@ -62,10 +66,10 @@ class _ContactUsState extends State<ContactUs> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               //phone
-              FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.phone,color: Colors.black,) , label: new Text( "+971555551349",style:
+              FlatButton.icon(onPressed: goToPhone, icon: Icon(Icons.phone,color: Colors.black,) , label: new Text( TranslationBase.of(context).number,style:
               TextStyle(color: Colors.black,fontSize: 18),)),
               //whatsApp
-              FlatButton.icon(onPressed: gotoWhatsapp, icon: Icon(Icons.whatshot,color: Colors.black,) , label: new Text( "+971555551349",style:
+              FlatButton.icon(onPressed: gotoWhatsapp, icon: Icon(Icons.whatshot,color: Colors.black,) , label: new Text( TranslationBase.of(context).number,style:
               TextStyle(color: Colors.black,fontSize: 18),)),
 
               //email
@@ -77,16 +81,54 @@ class _ContactUsState extends State<ContactUs> {
 //location
               FlatButton.icon(onPressed:_launchMapsUrl, icon: Icon(Icons.place,color: Colors.black,) , label: new Text( "Nabta Agriculture Store, Dubai UAE",maxLines: 1,style:
               TextStyle(color: Colors.black,fontSize: 18),)),
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                   children: <Widget>[
+
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: GestureDetector(
+                          onTap: () {gotoFacebook();},
+                          child: Image(
+                            width: 50,
+                            height: 50,
+                            image: AssetImage('asset/images/facebook.png'),
+                            fit: BoxFit.cover,
+
+                          )
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: GestureDetector(
+
+                          onTap: () {gotoInstagram ();},
+                          child: Image(
+
+
+                            width: 50,
+                            height: 50,
+                            image: AssetImage('asset/images/instagram.png'),
+                            fit: BoxFit.cover,
+
+                          )
+                      ),
+                    ),
+                  ],
+                ),
+              )
 
             ],
           ),
+
 
         ],
       )
     );
   }
   void _launchMapsUrl( ) async {
-    final url = 'https://www.google.com/maps/search/?api=1&query=25.099230,55.179760';
+    final url = 'https://www.google.com/maps?q=Nabta+Agriclture+store+-+Dubai&ftid=0x3e5f6197b63d61ef:0xafe0091cc54e245f&hl=en-AE&gl=ae&shorturl=1';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -95,7 +137,7 @@ class _ContactUsState extends State<ContactUs> {
   }
   void goToPhone()async{
 
-    const url = 'tel: +971555551349';
+    const url = 'tel: +971505447799';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -119,8 +161,20 @@ class _ContactUsState extends State<ContactUs> {
       throw 'Could not launch $url';
     }
   }
+  gotoInstagram() async{
+
+    var url='https://www.instagram.com/nabta.agri';
+    await canLaunch(url)? launch(url):print("open whatsapp app link or do a snackbar with notification that there is no Instagram installed");
+
+  }
+  gotoFacebook() async{
+
+    var url='https://www.facebook.com/nabtaagri-106242827497155';
+    await canLaunch(url)? launch(url):print("open whatsapp app link or do a snackbar with notification that there is no Instagram installed");
+
+  }
   gotoWhatsapp() async{
-    var whatsappUrl ="whatsapp://send?phone=+971555551349";
+    var whatsappUrl ="whatsapp://send?phone=+971505447799";
     await canLaunch(whatsappUrl)? launch(whatsappUrl):print("open whatsapp app link or do a snackbar with notification that there is no whatsapp installed");
 
   }

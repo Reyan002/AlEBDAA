@@ -19,76 +19,86 @@ class _ListingState extends State<Listing> {
       ),
       body: Stack(
         children: <Widget>[
+
+
       Container(
       foregroundDecoration: const BoxDecoration(
       image: DecorationImage(
       image: AssetImage (
-      'asset/images/backnew.jpg'),
+      'asset/images/backfinala.png'),
         fit: BoxFit.fill),
     ),),
           Container(
-            color: Colors.black54,
+            color: Colors.white38,
           ),
-          Column(
-            children: <Widget>[
-              Container(
-                  padding: EdgeInsets.all(20),
-                  child: Image.asset("asset/images/back.png")),
-
-              Row(
-                children: <Widget>[
-                  Expanded(child: Card(
-                    color: Colors.black54,
-                    child: Container(
-                      padding: EdgeInsets.all(20),
-
-                      child: Center(
-                        child: Column(
-                          children: <Widget>[
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.center,
+                 children: <Widget>[
 
 
+                  Row(
+                    children: <Widget>[
+                      Expanded(child: Card(
+                        color: Colors.black54,
+                        child: Container(
+                          padding: EdgeInsets.all(20),
 
-                            FlatButton.icon(onPressed: ( ){Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => CultivationChart()),
-                            );}, icon: Icon(Icons.table_chart,size: 100,color: Colors.orange,), label: Text(""))
-                            ,Text(TranslationBase.of(context).cultichart,style: TextStyle(fontSize: 18,color: Colors.white),),
-                          ],
+                          child: Center(
+                            child: Column(
+                              children: <Widget>[
+
+
+
+                                FlatButton.icon(onPressed: ( ){Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => CultivationChart()),
+                                );}, icon: Icon(Icons.table_chart,size: 100,color: Colors.orange,), label: Text(""))
+                                ,Text(TranslationBase.of(context).cultichart,style: TextStyle(fontSize: 18,color: Colors.white),),
+                              ],
+                            ),
+                          ),
                         ),
                       ),
-                    ),
-                  ),
 
-                  ),
-                  Expanded(child: Card(
-                    color: Colors.black54,
-                    child: Container(
-                      padding: EdgeInsets.all(20),
-                      child: Center(
-                         
-                        child: Column(
-                          children: <Widget>[
+                      ),
+                      Expanded(child: Card(
+                        color: Colors.black54,
+                        child: Container(
+                          padding: EdgeInsets.all(20),
+                          child: Center(
+
+                            child: Column(
+                              children: <Widget>[
 
 
 
-                            FlatButton.icon(onPressed: ( ){
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => OrganicGuild()),
-                              );
-                            }, icon: Icon(Icons.supervised_user_circle,size: 100,color: Colors.orange,), label: Text(""))
-                            ,Text(TranslationBase.of(context).organic,style: TextStyle(fontSize: 18,color: Colors.white),),
-                          ],
+                                FlatButton.icon(onPressed: ( ){
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) => OrganicGuild()),
+                                  );
+                                }, icon: Icon(Icons.supervised_user_circle,size: 100,color: Colors.orange,), label: Text(""))
+                                ,Text(TranslationBase.of(context).organic,style: TextStyle(fontSize: 18,color: Colors.white),),
+                              ],
+                            ),
+                          ),
                         ),
                       ),
-                    ),
-                  ),
 
+                      )
+                    ],
                   )
                 ],
-              )
-            ],
+              ),
+            ),
           )
+
+
         ],
       )
     );

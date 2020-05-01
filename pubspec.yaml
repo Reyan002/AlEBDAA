@@ -33,6 +33,7 @@ dependencies:
   scoped_model: ^0.3.0
   provider: ^3.1.0
   shared_preferences: ^0.5.3+4
+  animated_splash: ^1.0.0
 
 dev_dependencies:
   flutter_test:
