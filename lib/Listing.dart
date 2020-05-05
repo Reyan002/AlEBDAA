@@ -58,7 +58,16 @@ class _ListingState extends State<Listing> {
                                   context,
                                   MaterialPageRoute(builder: (context) => CultivationChart()),
                                 );}, icon: Icon(Icons.table_chart,size: 100,color: Colors.orange,), label: Text(""))
-                                ,Text(TranslationBase.of(context).cultichart,style: TextStyle(fontSize: 18,color: Colors.white),),
+                                ,Row(
+                                  children: <Widget>[
+                                    Text(TranslationBase.of(context).cultichart,style: TextStyle(fontSize: 18,color: Colors.white),),
+                                    Container(
+                                      padding: EdgeInsets.all(5),
+                                        height: 20,
+                                        width: 50,
+                                        child: Image.asset("asset/images/uae.jpg"))
+                                  ],
+                                ),
                               ],
                             ),
                           ),

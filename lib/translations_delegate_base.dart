@@ -24,8 +24,8 @@ class TranslationBase {
   'app_name': 'Al-Ebdaa',
   'btn_en':'English',
   'btn_ar' : 'Arabic',
-  'about_us' : 'Al-EBBDA AL-ZAHABI Investments is a company invests in many sectors (commercial, industrial, agriculture, education, petrol and gas, tourism) was established to support and develop SME businesses around UAE and Organic Guild is part of Al-EBBDA AL-ZAHABI, its created with the purpose of encouraging and developing the organic industry the UAE. Organic Guild is group of companies that are organic certified or related to it or have passion to it. The purpose of this group is to share information, cooperate in the business and participate in events and exhibition.',
-  'become':'Become A Partner',
+ 'about_us':'Al-EBBDA AL-Thahabi Investments was established in 2015 to support, develop SME businesses and Trade around UAE in Organic and Sustainable projects, it created with the purpose of encouraging and developing the organic industry the UAE. In Agriculture sector Alebdaa partnership with Nabta Agriculture. Nabta is a community business which gathered group of people who have experience in agriculture. The purpose of this partnership is to share information, cooperate in the business and participate in events and exhibition and trading. ALEBDAA App  is part of the awareness program that will help the community to know about how to grow there own food. ',
+   'become':'Become A Partner',
   'home':'Home',
   'about':'About Us',
   'contact':'Contact',
@@ -37,8 +37,8 @@ class TranslationBase {
       'more':'More',
       'title':'Title',
       'sno':'S.No.',
-      'cultichart':'Cultivation Chart',
-      'organic':'Organic Guild',
+      'cultichart':'Cultivation',
+      'organic':'NABTA',
       'one':'1',
       'two':'2',
 
@@ -52,9 +52,8 @@ class TranslationBase {
    'txtAbout':'About Us',
    'mission':'Our Mission ',
    'vission':'Our Vision ',
-   'Mission':'participate in growth of organic sector and encourage young farmers to invest in their farms as well as support traditional farmers to adopt new technology in farming. Also raise awareness of importance of organic industry to be available and spread widely among United Arab Emirates.',
-   'Vission':'develop agriculture sector and promote UAE to become on the top of organic industry and be market leader in GCC and middle-east. At same time continuing support to meet clients and business needs as they develop.',
-
+   'Mission': 'Participate in growth of organic sector and encourage young farmers to invest in their farms as well as support traditional farmers to adopt new technology in farming. Also raise awareness of importance of organic industry to be available and spread widely among United Arab Emirates.',
+  'Vission': 'Our Vision: develop agriculture sector and promote UAE to become on the top of organic and sustainable industry to  be market leader in GCC and middle-east. At same time continuing support to meet clients and business needs as they develop.'
 
 
 
@@ -79,8 +78,8 @@ class TranslationBase {
       'title':'عنوان',
       'sno':'رقم سري',
 
-      'cultichart':'مخطط الزراعة',
-      'organic':'النقابة العضوية',
+      'cultichart':'زراعة',
+      'organic': 'نبتة',
       'one':'١',
       'two':'١',
 
@@ -92,11 +91,11 @@ class TranslationBase {
 
       'who':'من نحن',
       'txtAbout':'معلومات عنا',
-      'about_us' : 'الإبداع الذهبي للإستثمار هي شركة تستثمر في العديد من القطاعات (التجارة، الصناعة، الزراعة، التعليم، البترول والغاز، السياحة) تأسست لدعم وتطوير الشركات الصغيرة والمتوسطة في دولة الإمارات العربية المتحدة و فريق الأورغانيك هي جزء من شركة الإبداع الذهبي للإستثمار أُنشئت للاهتمام ومتابعة وتطوير قطاع الانتاج العضوي في دولة الإمارات. فريق الأورغانيك او الفريق العضوي هو مجموعة من الشركات المرخصة لممارسة النشاط العضوي و الشركات المهتمة بالمجال العضوي لتبادل المعلومات والخبرات والمشاركة في المعارض و الاحداث المرتبطة بالزراعة والمنتجات العضوية.',
+      'about_us' : 'تأسست شركة الإبداع الذهبي للاستثمار في عام 2015 لتأسيس  وتطوير الشركات الصغيرة والمتوسطة والتجارة حول دولة الإمارات العربية المتحدة في المشاريع الزراعية للإنتاج العضوي والمستدام ، وقد تم إنشاؤها بهدف تشجيع وتطوير الصناعة العضوية و المستدامة في الإمارات العربية المتحدة. في قطاع التطوير الزراعي تم  التعاون مع شركة نبتة الزراعية .و هي شركة مجتمعية تجمع مجموعة من الناس الذين   لديهم خبرة في الزراعة المستدامة و التجارة بمستلزماتها . الغرض من هذه الشراكة هو  تبادل المعلومات والتعاون في الأعمال والمشاركة في الأحداث والمعارض.  " الإبداع AL-EBDAA "هو جزء من برامج التثقيفية و التوعوية  للمجتمع بكيفية زراعة غذائهم بنفسهم ',
        'mission':'رسالتنا ',
       'vission':'رؤيتنا ',
-      'Mission':'رسالتنا : المساهمة في نمو قطاع المنتجات والزراعة العضوية وتحفيز المزارعين الشباب لاستثمار مزارعم وتشجيع المزارعين التقليديين لتبني طرق جديدة في الزراعة، بالإضافة الى نشر الوعي بأهمية توافر المنتجات العضوية وانتشارها على نطاق واسع في دولة الامارات.',
-      'Vission':'تطوير قطاع الزراعة العضوية وتعزيز مكانة الإمارت لتصبح الأولى خليجياً وعربياً في الانتاج والزراعة العضويه مع المحافظة على تطوير امكانياتنا لتتناسب مع تطور احتياجات عملائنا.',
+      'Mission': 'المشاركة في نمو قطاع   الإنتاج العضوي و المستدام وتشجيع أصحاب المزارعين على الاستثمار في مزارعهم وكذلك   دعم المزارعين التقليديين لتبني تكنولوجيا جديدة في الزراعة. و رفع الوعي بأهمية   الصناعة العضوية و المستدامة  لتكون متاحة   ونشرها على نطاق واسع بين الإمارات العربية المتحدة',
+  'Vission':'تطوير قطاع الزراعة العضوية وتعزيز مكانة الإمارت لتصبح الأولى خليجياً وعربياً في الانتاج والزراعة العضويه مع المحافظة على تطوير امكانياتنا لتتناسب مع تطور احتياجات عملائنا.',
 
 
     },
